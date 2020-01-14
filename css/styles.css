@@ -1,0 +1,85 @@
+body {
+  background-color: ivory;
+  font-family: "Raleway", sans-serif;
+  background-color: ivory;
+}
+
+header {
+  background-color: ivory;
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  height:auto;
+  z-index: 2;
+}
+
+body {
+  position: relative;
+}
+
+.navigation {
+  padding: 20px 10px;
+  height:auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  padding: auto;
+  width: auto;
+}
+
+
+
+.navigation li {
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin: auto;
+}
+
+
+
+.navigation li.currentpage {
+  color: black;
+  font-size: 1.225em;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+}
+
+.navigation li a:hover {
+  color: black;
+  text-decoration: underline;
+  letter-spacing: 0.5em;
+  font-weight: 700;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  transition: letter-spacing 0.5s, font-weight.5s;
+}
+
+#banner {
+  background-image: url("images/india.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 30em;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: 0.1em solid white;
+  position: relative;
+  top: 3.75em;
+  width: 50%;
+  margin: auto;
+  border-radius: 0.5em;
+  padding: 1% 1%;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}

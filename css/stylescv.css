@@ -1,0 +1,217 @@
+/* Themes */
+
+:root {
+  --light: #57BA98;
+  --ultralite:#65CCB8;
+  --dark:#3B945E;
+  --ultradark:#182628;
+  --Highlights:#F2F2F2;
+}
+
+
+
+html {
+   font-family: raleway;
+   font-size: 16;
+}
+
+/*navbar*/
+
+header .navigation ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   list-style: none;
+   flex-wrap: wrap;
+   font-size: 1.8em;
+   align-content: center;
+}
+
+.navigation li {
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin: auto;
+}
+
+
+
+.navigation li.currentpage {
+  color: black;
+  font-size: 1.225em;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+}
+
+.navigation li a:hover {
+  color: black;
+  text-decoration: underline;
+  letter-spacing: 0.25em;
+  font-weight: 700;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  transition: letter-spacing 0.5s, font-weight.5s;
+}
+
+/*main class .flex maybe i need to come back to this?*/
+
+.flex{
+   display: flex;
+   flex-flow:row wrap;
+   align-content: space-around;
+   justify-content: center;
+}  
+
+/*pagetitle*/
+
+.pagetitle {
+   display:flex;
+   align-content: space-around;
+   justify-content:center;
+}
+
+.pagetitle h1 {
+   font-weight: 800;
+   letter-spacing: 0.5em;
+   text-align: center;
+   padding-bottom: 1.5em;
+}
+
+/*Summary*/
+
+.summary{
+   display:flex ;
+   border-radius: .5rem;
+   border: 2px solid black;
+   width:90%;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: flex-start;
+   margin:1em;
+   
+}
+
+.summary h2{
+   width:100%;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: .5em;
+
+}
+
+.summary p {
+   padding: .5em 3em;
+}
+
+.quote{
+   width:100%;
+   border: 2px solid black;
+   border-radius:.5em ;
+}
+#quote{
+   font-weight: 800;
+   text-align: center;
+}
+
+.summaryul {
+   text-align: center;
+   width: 100%;
+}
+
+.summaryul ul{
+   list-style-type: none;
+   padding: .5em 3em;
+   
+}
+
+.summaryul ul li{
+   border-bottom: gray 1px dotted;
+}
+
+/*Highlights*/
+
+.highlights{
+   display:flex;
+   border-radius: .5rem;
+   border: 2px solid black;
+   width:90%;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: space-evenly;
+   margin:1em;
+
+}
+
+.highlights h2{
+   width:100%;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: .5em;
+}
+
+.highlights .traits{
+   padding: 0em 1em 2em 1em;
+   display:block;
+
+}
+
+/*History*/
+
+.history{
+   display:flex;
+   border-radius: .5rem;
+   border: 2px solid black;
+   width:90%;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: space-around;
+   margin:1em;
+
+}
+
+.history #history{
+   width:100%;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: .5em;
+}
+
+.historybox{
+   border:black solid 1px;
+   border-radius: .5em;
+   width:200px;
+   padding:1em;
+   margin:2em;
+   text-align: center;
+   
+}
+
+.historybox ul {
+   list-style-type:none;
+   text-align: left;
+
+}
+
+.historybox ul strong{
+   text-align: right;
+}
+
+.historybox h2 {
+   width:100%;
+   border: 1px solid black;
+   border-radius: .5em;
+   padding:0.3em 0;
+}
+
+table, th, tr, td {
+   border: 1px solid black;
+}
+table {
+   border-radius: .5em;
+}
+
+.references th {
+   column-span: 2;
+}
